@@ -9,7 +9,7 @@ export default function Index() {
         alignItems: "center",
       }}
     >
-      <Text className="text-2xl font-bold text-blue-700">Edit app/index.tsx to edit this screen.</Text>
+      <Text className="text-2xl font-bold text-blue-700">React Native Real Estate App</Text>
     </View>
   );
 }
