@@ -13,6 +13,7 @@ import { logout } from "@/lib/appwrite";
 import { useGlobalContext } from "@/lib/global-provider";
 
 import icons from "@/constants/icons";
+import images from "@/constants/images";
 import { settings } from "@/constants/data";
 
 interface SettingsItemProp {
@@ -72,7 +73,7 @@ const Profile = () => {
                 <View className="flex flex-row justify-center mt-5">
                     <View className="flex flex-col items-center relative mt-5">
                         <Image
-                            source={{ uri: user?.avatar }}
+                            source={images.avatar}
                             className="size-44 relative rounded-full"
                         />
                         <TouchableOpacity className="absolute bottom-11 right-2">
